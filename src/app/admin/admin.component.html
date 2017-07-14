@@ -4,31 +4,33 @@
   </div>
   <div class="panel-body">
     <div>
-      <div>
-        <label>Member Name:</label>
+      <div class="form-group">
+        <label>Members Name:</label>
         <br>
-        <input #newName>
+        <input #newName  placeholder="Name" class="form-control">
       </div>
 
-      <div>
-        <label>Member Email:</label>
+      <div class="form-group">
+        <label>Members Email:</label>
         <br>
-        <input #newEmail>
+        <input #newEmail placeholder="Email" class="form-control">
       </div>
 
-      <div>
-        <label>Member Description:</label>
+      <div class="form-group">
+        <label>Members Description:</label>
         <br>
-        <textarea #newDescription></textarea>
+        <textarea #newDescription placeholder="Description" class="form-control"></textarea>
       </div>
-      <div>
-        <label>Member External Link:</label>
+      <div class="form-group">
+        <label>Members Link:</label>
         <br>
-        <input #newLink>
+        <input #newLink placeholder="Link" class="form-control">
       </div>
       <button (click)="submitForm(newName.value,
-      newDescription.value, newEmail.value, newLink.value);newName.value=''; newEmail.value=''; newDescription.value=''; newLink.value='';">Add</button>
+      newDescription.value, newEmail.value, newLink.value);newName.value=''; newEmail.value=''; newDescription.value=''; newLink.value='';" class="btn btn-primary">Add</button>
+      <br>
     </div>
+    <br>
   </div>
 </div>
 
