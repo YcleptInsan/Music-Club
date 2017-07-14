@@ -26,15 +26,15 @@ This web application will allow a user to view all Artist involved with the Club
 You will also need to hide the api key by putting the following text in the .gitIgnore file.
 
  | FireBase | 
-|:----------------:|
-| export var masterFirebaseConfig = {  |
-|    apiKey: "xxxx", |
-|    authDomain: "xxxx.firebaseapp.com",|
-|    databaseURL: "https://xxxx.firebaseio.com",|
-|    storageBucket: "xxxx.appspot.com",|
-|    messagingSenderId: "xxxx"|
-|  }; |
-||
+
+ export var masterFirebaseConfig = {  
+   apiKey: "xxxx", 
+    authDomain: "xxxx.firebaseapp.com",
+    databaseURL: "https://xxxx.firebaseio.com",
+  storageBucket: "xxxx.appspot.com",
+    messagingSenderId: "xxxx"
+  }; 
+
   
 
  #Firebase credentials
