@@ -1,17 +1,17 @@
 # Music Production Club
 
-#### An Epicodus project in Angular 2, TypeScript, Bower, Css, and HTML 07.14.17
+#### An Epicodus project in Angular 2, TypeScript, Node.js , Css, and HTML 07.14.17
 
 #### **By Nick Wise**
 
 ## Description
 
 
-This web application will allow a user to view all Artist involved with the Club. An Admin can add,edit,  and delete new members.
+This web application will allow a user to view all Artist involved with the Club. An Admin can add, edit, and delete new members.
 
 
 # STARTING NEW PROJECT
-| Package | Installation
+| Package | Installation |
 |:---:|:---:|
 | Npm |$ npm install -g @angular/cli@1.0.0 |
 | Bower |$ npm install bower -g |
@@ -19,7 +19,9 @@ This web application will allow a user to view all Artist involved with the Club
 | Bower bootstrap dependency | $ bower install bootstrap --save |
 | Firebase |$ npm install -g @angular/cli@1.0.0 |
 | TypeScript | $ npm install -g typescript |
-| New angular project | $ ng new project-name 
+| New angular project | $ ng new project-name |
+
+## Angular 2 Generate Commands
  ng generate <type> [options]  Generate new code inside your project. 
   Alias: 'g' 
   Valid types: 
@@ -72,7 +74,15 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 ## Additional Notes
+You will need to Sign up with Firebase and log in through the console they offer here https://firebase.google.com/. After you sign up you can generate your unique API key that will be plugged into the Api-Keys.ts file. You Will also need to create this file inside the app folder called api-keys.ts. Use the following code as a template to plug in your apikey. 
 
+export var masterFirebaseConfig = {
+    apiKey: "xxxx",
+    authDomain: "xxxx.firebaseapp.com",
+    databaseURL: "https://xxxx.firebaseio.com",
+    storageBucket: "xxxx.appspot.com",
+    messagingSenderId: "xxxx"
+  };
 
 ## Support and contact details
 
