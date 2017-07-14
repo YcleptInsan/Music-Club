@@ -1,12 +1,26 @@
+import { masterFirebaseConfig } from './api-keys';
+
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { routing } from './app.routing';
+import { FormsModule } from '@angular/forms';
+import { HttpModule } from '@angular/http';
+import { AngularFireModule } from 'angularfire2';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
 
 import { AppComponent } from './app.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { AboutComponent } from './about/about.component';
 import { PortalComponent } from './portal/portal.component';
 import { MemberDetailsComponent } from './member-details/member-details.component';
+
+import { routing } from './app.routing';
+
+export const firebaseConfig = {
+  apiKey: masterFirebaseConfig.apiKey,
+  authDomain: masterFirebaseConfig.authDomain,
+  databaseURL: masterFirebaseConfig.databaseURL,
+  storageBucket: masterFirebaseConfig.storageBucket
+};
 
 @NgModule({
   declarations: [
@@ -18,9 +32,11 @@ import { MemberDetailsComponent } from './member-details/member-details.componen
   ],
   imports: [
     BrowserModule,
-    // FormsModule,
-    // HttpModule,
-    routing
+    FormsModule,
+    HttpModule,
+    routing,
+    AngularFireModule.initializeApp(firebaseConfig),
+    AngularFireDatabaseModule
   ],
   providers: [],
   bootstrap: [AppComponent]
