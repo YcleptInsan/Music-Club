@@ -12,7 +12,7 @@ This web application will allow a user to view all Artist involved with the Club
 
 ##STARTING NEW PROJECT**
 | Package | Installation
-|:---:|:---:|:---:|:---:|
+|:---:|:---:|
 | Npm |$ npm install -g @angular/cli@1.0.0 |
 | Bower |$ npm install bower -g |
 | Bower | $ bower init |
