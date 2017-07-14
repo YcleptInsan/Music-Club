@@ -27,13 +27,13 @@ You will also need to hide the api key by putting the following text in the .git
 
  | Code | 
  |:---:|
-| export var masterFirebaseConfig = {
+ export var masterFirebaseConfig = { 
     apiKey: "xxxx",
     authDomain: "xxxx.firebaseapp.com",
     databaseURL: "https://xxxx.firebaseio.com",
     storageBucket: "xxxx.appspot.com",
     messagingSenderId: "xxxx"
-  }; |
+  }; 
   
 
 | #Firebase credentials
