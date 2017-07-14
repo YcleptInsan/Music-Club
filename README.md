@@ -33,7 +33,8 @@ You will also need to hide the api key by putting the following text in the .git
     databaseURL: "https://xxxx.firebaseio.com",
     storageBucket: "xxxx.appspot.com",
     messagingSenderId: "xxxx"
-  }; |
+  }; 
+|
   
 
  #Firebase credentials
