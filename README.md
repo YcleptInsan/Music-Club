@@ -37,6 +37,7 @@ You will also need to hide the api key by putting the following text in the .git
 
   
 | .gitIgnore |
+
  #Firebase credentials
 /src/app/api-keys.ts 
 
