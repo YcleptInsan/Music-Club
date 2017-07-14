@@ -25,7 +25,6 @@ This web application will allow a user to view all Artist involved with the Club
  You will need to Sign up with Firebase and log in through the console they offer here https://firebase.google.com/. After you sign up you can generate your unique API key that will be plugged into the api-key.ts file. You Will also need to create this file inside the app folder called api-key.ts. Use the following code as a template to plug in your apikey. 
 You will also need to hide the api key by putting the following text in the .gitIgnore file.
 
- | Code | 
  |:----------------------------------:|
  export var masterFirebaseConfig = { 
     apiKey: "xxxx",
@@ -35,8 +34,8 @@ You will also need to hide the api key by putting the following text in the .git
     messagingSenderId: "xxxx"
   }; 
   
-
-| #Firebase credentials
+|:--------------------------------:|
+ #Firebase credentials
 /src/app/api-keys.ts |
 
 # CLONING PROJECT
