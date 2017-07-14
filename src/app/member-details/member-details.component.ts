@@ -8,12 +8,12 @@ import { MemberService } from '../member.service';
   selector: 'app-member-details',
   templateUrl: './member-details.component.html',
   styleUrls: ['./member-details.component.css'],
-  providers: [MemberService]
+  providers: [ MemberService ]
 })
 export class MemberDetailsComponent implements OnInit {
 
   memberId: number;
-  memberToDisplay: Member;
+  memberToDisplay;
 
   constructor(private route: ActivatedRoute,
               private location: Location,
