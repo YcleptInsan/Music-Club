@@ -28,5 +28,9 @@ export class MemberService {
                                   email: localUpdatedMember.email,
                                   link: localUpdatedMember.link});
   }
-
+  beginDeletingMember(memberToDelete){
+    if(confirm("Are you sure you want to delete this item from the inventory?")){
+      this.memberService.deleteMember(memberToDelete);
+    }
+  }
 }
