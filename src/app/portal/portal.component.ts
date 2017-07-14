@@ -6,7 +6,8 @@ import { MemberService } from '../member.service';
 @Component({
   selector: 'app-portal',
   templateUrl: './portal.component.html',
-  styleUrls: ['./portal.component.css']
+  styleUrls: ['./portal.component.css'],
+  providers: [MemberService]
 })
 export class PortalComponent implements OnInit {
   members: Member[];
@@ -14,7 +15,7 @@ export class PortalComponent implements OnInit {
   constructor(private router: Router, private memberService: MemberService) { }
 
   ngOnInit() {
-    this.members = this.memberServie.getMembers();
+    this.members = this.memberService.getMembers();
   }
 
   goToDetailsPage(clickedMember: Member) {

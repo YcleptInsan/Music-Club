@@ -17,7 +17,7 @@ export class MemberDetailsComponent implements OnInit {
 
   constructor(private route: ActivatedRoute,
               private location: Location,
-              private memberServie: MemberService
+              private memberService: MemberService
             ) {}
 
   ngOnInit() {
