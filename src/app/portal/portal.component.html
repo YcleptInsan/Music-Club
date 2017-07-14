@@ -1,3 +1,5 @@
 <h2>Portal</h2>
 
-<p>All our Memebers will be displayed here</p>
+<div *ngFor="let member of members">
+    <h3><em>{{member.name}}</em></h3>
+</div>
