@@ -1,5 +1,7 @@
 <h2>Portal</h2>
 
-<div *ngFor="let member of members">
+<div *ngFor="let member of members" (click)="goToDetailsPage(member)" class="panel panel-default">
+  <div class="panel-body">
     <h3><em>{{member.name}}</em></h3>
+  </div>
 </div>
