@@ -22,7 +22,7 @@ This web application will allow a user to view all Artist involved with the Club
 | New angular project | $ ng new project-name |
 | ng generate <type> [options] | Generate new code inside your project.
 |  Alias: 'g' |
-|  Valid types:
+|  Valid types: |
  component <path/to/component-name> Generates a component.
  directive <path/to/directive-name> Generates a directive.
  route <route/to/route-component> Generates a route. The name should
