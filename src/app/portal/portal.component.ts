@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Member } from '../member.model';
 import { Router } from '@angular/router';
+import { Member } from '../member.model';
+import { MemberService } from '../member.service';
 
 @Component({
   selector: 'app-portal',
@@ -8,16 +9,12 @@ import { Router } from '@angular/router';
   styleUrls: ['./portal.component.css']
 })
 export class PortalComponent implements OnInit {
+  members: Member[];
 
-
-  members: Member[] = [
-    new Member("James", "music production", "james@gmail.com", "www.soundcloud.com/jamesMusic", 1),
-    new Member("Nick Wise", "Love music production. Anything audio related", "nickmwise@gmail.com", "www.soundcloud.com/YcleptInsan", 2),
-    new Member("Larry", "music production and Linux Admin", "larry@gmail.com", "www.soundcloud.com/jamesMusic", 3),
-  ]
-  constructor(private router: Router) { }
+  constructor(private router: Router, private memberService: MemberService) { }
 
   ngOnInit() {
+    this.members = this.memberServie.getMembers();
   }
 
   goToDetailsPage(clickedMember: Member) {
