@@ -10,7 +10,7 @@ import { MemberService } from '../member.service';
   providers: [MemberService]
 })
 export class PortalComponent implements OnInit {
-  members: Member[];
+  members: FirebaseListObservable<any[]>;
 
   constructor(private router: Router, private memberService: MemberService) { }
 
