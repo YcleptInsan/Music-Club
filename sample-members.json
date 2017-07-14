@@ -2,19 +2,19 @@
     "name": "PulseJ",
     "description": "A memeber of ProxyChange",
     "email": "pulsej@gmail.com",
-    "externalLink": "www.soundcloud.com/pulse",
+    "link": "www.soundcloud.com/pulse",
     "id": "1"
     }, {
       "name": "FrankNDank",
       "description": "A memeber of JDilla crew",
       "email": "frankndank@gmail.com",
-      "externalLink": "www.soundcloud.com/franNDank",
+      "link": "www.soundcloud.com/franNDank",
       "id": "2"
       }, {
         "name": "Yclept Insan",
         "description": "Stand Alone producer, mixing, mastering, song writting",
         "email": "ycleptinsan@gmail.com",
-        "externalLink": "www.soundcloud.com/YcleptInsan",
+        "link": "www.soundcloud.com/YcleptInsan",
         "id": "3"
   }]
 }

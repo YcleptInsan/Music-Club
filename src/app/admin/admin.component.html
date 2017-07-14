@@ -24,10 +24,14 @@
       <div>
         <label>Member External Link:</label>
         <br>
-        <input #newExternalLink>
+        <input #newLink>
       </div>
       <button (click)="submitForm(newName.value,
-      newDescription.value, newEmail.value, newExternalLink.value);newName.value=''; newEmail.value=''; newDescription.value=''; newExternalLink.value='';">Add</button>
+      newDescription.value, newEmail.value, newLink.value);newName.value=''; newEmail.value=''; newDescription.value=''; newLink.value='';">Add</button>
     </div>
   </div>
+</div>
+
+<div>
+  <app-portal></app-portal>
 </div>

@@ -1,8 +1,8 @@
 <div>
-  <h2>{{memberToDisplay.name}}</h2>
-  <h3>Email: {{memberToDisplay.email}}</h3>
+  <h2>{{(memberToDisplay | async)?.name}}</h2>
+  <h3>Email: {{(memberToDisplay | async)?.email}}</h3>
   <hr>
-  <p>Description: {{memberToDisplay.description}}</p>
+  <p>Description: {{(memberToDisplay | async)?.description}}</p>
   <br>
-  <p>{{memberToDisplay.externalLink}}</p>
+  <p>{{(memberToDisplay | async)?.link}}</p>
 </div>

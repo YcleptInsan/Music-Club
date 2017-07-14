@@ -12,6 +12,7 @@ import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/databa
 })
 export class PortalComponent implements OnInit {
   members: FirebaseListObservable<any[]>;
+  currentRoute: string = this.router.url;
 
   constructor(private router: Router, private memberService: MemberService) { }
 
@@ -19,7 +20,7 @@ export class PortalComponent implements OnInit {
     this.members = this.memberService.getMembers();
   }
 
-  goToDetailsPage(clickedMember: Member) {
-    this.router.navigate(['members', clickedMember.id]);
+  goToDetailsPage(clickedMember) {
+    this.router.navigate(['members', clickedMember.$key]);
   };
 }

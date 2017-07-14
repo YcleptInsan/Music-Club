@@ -1,0 +1,19 @@
+<h4>Edit Member</h4>
+
+<label>New Member Name:</label>
+<input [(ngModel)]="selectedMemberName">
+<br>
+
+<label>New Member Artist:</label>
+<input [(ngModel)]="selectedMemberDescription">
+<br>
+
+<label>New Member Description:</label>
+<input [(ngModel)]="selectedMemberEmail">
+<br>
+
+<label>New Member External Link:</label>
+<input [(ngModel)]="selectedMemberLink">
+<br>
+
+<button (click)="beginUpdatingMember(selectedMember)">Update</button>

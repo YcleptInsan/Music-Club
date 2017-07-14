@@ -12,7 +12,7 @@ import { MemberService } from '../member.service';
 })
 export class MemberDetailsComponent implements OnInit {
 
-  memberId: number;
+  memberId: string;
   memberToDisplay;
 
   constructor(private route: ActivatedRoute,
@@ -22,7 +22,7 @@ export class MemberDetailsComponent implements OnInit {
 
   ngOnInit() {
     this.route.params.forEach((urlParameters) => {
-      this.memberId = parseInt(urlParameters['id']);
+      this.memberId = urlParameters['id'];
     });
     this.memberToDisplay = this.memberService.getMemberById(this.memberId);
   }
