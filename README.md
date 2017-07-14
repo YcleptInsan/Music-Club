@@ -10,7 +10,7 @@
 This web application will allow a user to view all Artist involved with the Club. An Admin can add,edit,  and delete new members.
 
 
-##STARTING NEW PROJECT**
+# STARTING NEW PROJECT
 | Package | Installation
 |:---:|:---:|
 | Npm |$ npm install -g @angular/cli@1.0.0 |
@@ -30,7 +30,7 @@ This web application will allow a user to view all Artist involved with the Club
  pipe <path/to/pipe-name> Generates a pipe.
  service <path/to/service-name> Generates a service. |
 
-##CLONING PROJECT**
+# CLONING PROJECT
 
  | Package | Installation |
  |:---:|:---:|
