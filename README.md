@@ -34,7 +34,7 @@ You will also need to hide the api key by putting the following text in the .git
     messagingSenderId: "xxxx"
   }; 
   
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
  #Firebase credentials
 /src/app/api-keys.ts |
 
