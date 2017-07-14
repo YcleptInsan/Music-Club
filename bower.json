@@ -1,0 +1,20 @@
+{
+  "name": "music-club",
+  "description": "A app with database for a music club with full CRUD functionality for Members Object",
+  "main": "",
+  "authors": [
+    "nick wise <nickmwise@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
