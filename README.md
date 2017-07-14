@@ -31,6 +31,7 @@ export var masterFirebaseConfig = {
     storageBucket: "xxxx.appspot.com",
     messagingSenderId: "xxxx"
   };
+  
 You will also need to hide the api key by putting the following text in the .gitIgnore file.
 
 #Firebase credentials
