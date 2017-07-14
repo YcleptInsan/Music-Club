@@ -20,15 +20,15 @@ This web application will allow a user to view all Artist involved with the Club
 | Firebase |$ npm install -g @angular/cli@1.0.0 |
 | TypeScript | $ npm install -g typescript |
 | New angular project | $ ng new project-name |
-| ng generate <type> [options] | Generate new code inside your project.
-|  Alias: 'g' |
-|  Valid types: |
+ ng generate <type> [options] | Generate new code inside your project.
+  Alias: 'g' 
+  Valid types: 
  component <path/to/component-name> Generates a component.
  directive <path/to/directive-name> Generates a directive.
  route <route/to/route-component> Generates a route. The name should
  be the route used in the RouteConfig.
  pipe <path/to/pipe-name> Generates a pipe.
- service <path/to/service-name> Generates a service. |
+ service <path/to/service-name> Generates a service. 
 
 # CLONING PROJECT
 
