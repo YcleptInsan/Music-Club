@@ -20,7 +20,7 @@ This web application will allow a user to view all Artist involved with the Club
 | Firebase |$ npm install -g @angular/cli@1.0.0 |
 | TypeScript | $ npm install -g typescript |
 | New angular project | $ ng new project-name |
- ng generate <type> [options] | Generate new code inside your project.
+ ng generate <type> [options]  Generate new code inside your project. 
   Alias: 'g' 
   Valid types: 
  component <path/to/component-name> Generates a component.
