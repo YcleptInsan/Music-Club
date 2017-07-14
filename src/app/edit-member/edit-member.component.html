@@ -1,21 +1,25 @@
 <h4>Edit Member</h4>
+<form>
+  <div class="form-group">
 
-<label>New Member Name:</label>
-<input [(ngModel)]="selectedMemberName">
-<br>
+    <label>New Member Name:</label>
+    <input [(ngModel)]="selectedMemberName" class="form-control">
+    <br>
+  </div>
 
-<label>New Member Artist:</label>
-<input [(ngModel)]="selectedMemberDescription">
-<br>
+    <label>New Member Artist:</label>
+    <input [(ngModel)]="selectedMemberDescription" class="form-control">
+    <br>
 
-<label>New Member Description:</label>
-<input [(ngModel)]="selectedMemberEmail">
-<br>
+    <label>New Member Description:</label>
+    <input [(ngModel)]="selectedMemberEmail" class="form-control">
+    <br>
 
-<label>New Member External Link:</label>
-<input [(ngModel)]="selectedMemberLink">
-<br>
+    <label>New Member External Link:</label>
+    <input [(ngModel)]="selectedMemberLink" class="form-control">
+    <br>
 
-<button (click)="beginUpdatingMember(selectedMember)">Update</button>
-<hr>
-<button (click)="beginDeletingMember(selectedMember)">Delete</button>
+  <button (click)="beginUpdatingMember(selectedMember)" type="submit" class="btn btn-default">Update</button>
+
+  <button (click)="beginDeletingMember(selectedMember)" type="submit" class="btn btn-default" >Delete</button>
+</form>

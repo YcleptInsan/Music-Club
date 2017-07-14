@@ -2,7 +2,7 @@
   <h2>{{(memberToDisplay | async)?.name}}</h2>
   <h3>Email: {{(memberToDisplay | async)?.email}}</h3>
   <hr>
-  <p>Description: {{(memberToDisplay | async)?.description}}</p>
-  <br>
-  <p>{{(memberToDisplay | async)?.link}}</p>
+  <h4>Description: {{(memberToDisplay | async)?.description}}</h4>
+
+  <h4><a href="memberToDisplay"></a>{{(memberToDisplay | async)?.link}}</h4>
 </div>
