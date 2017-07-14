@@ -19,7 +19,7 @@ This web application will allow a user to view all Artist involved with the Club
 | Bower bootstrap dependency | $ bower install bootstrap --save |
 | Firebase |$ npm install -g @angular/cli@1.0.0 |
 | TypeScript | $ npm install -g typescript |
-| New angular project | $ ng new project-name |
+| New angular project | $ ng new project-name 
  ng generate <type> [options]  Generate new code inside your project. 
   Alias: 'g' 
   Valid types: 
