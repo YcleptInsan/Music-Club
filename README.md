@@ -17,7 +17,7 @@ This web application will allow a user to view all Artist involved with the Club
 | Bower |$ npm install bower -g |
 | Bower | $ bower init |
 | Bower bootstrap dependency | $ bower install bootstrap --save |
-| Firebase |$ npm install -g @angular/cli@1.0.0 |
+| Firebase |$ npm install angularfire2@4.0.0-rc.0 firebase --save |
 | TypeScript | $ npm install -g typescript |
 | New angular project | $ ng new project-name |
 
